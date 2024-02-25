@@ -1,5 +1,5 @@
 # ASK
-A project that simulates the Ask program
+A project that simulates Ask program
 #
 in this project i used some concept of oop and files handling
 #
