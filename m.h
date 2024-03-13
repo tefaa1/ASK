@@ -40,17 +40,17 @@ class login{
         bool checkthepass(){
             ifstream checkoo;
             checkoo.open("database of user name and pass.txt",ios::binary);
-            string a;
+            string a,b;
             checkoo>>a;
-            checkoo>>a;
+            checkoo>>b;
             while(!checkoo.eof()){
-                if(a==pass){
+                if(a==user&&b==pass){
                     checkoo.close();
                     return true;
                 }
                 else{
                     checkoo>>a;
-                    checkoo>>a;
+                    checkoo>>b;
                 }
             }
             checkoo.close();
