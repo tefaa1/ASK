@@ -27,4 +27,4 @@ This project simulates the functionality of the popular social Q&A platform, ask
 - Users can delete messages they have sent, with the changes reflected in the respective files, ensuring the database stays current and relevant.
 
 ## Conclusion
-This simulation of ask.fm provides a practical example of handling user interactions in a social media context while showcasing file handling in C++. The project emphasizes data management and user experience, making it a valuable exercise in C++ programming.
+This simulation of ask.fm provides a practical example of handling user interactions in a social media context while showcasing file handling in C++. The project emphasizes data management and user experience,
